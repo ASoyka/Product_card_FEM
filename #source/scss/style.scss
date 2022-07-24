@@ -122,6 +122,10 @@ $ff1:'Fraunces', serif; $ff2:'Montserrat', sans-serif;
                 &:hover {
                     background-color: #1A4032;
                 }
+                &:focus-visible {
+                    outline: 4px dashed #1A4032;
+                    background-color: #1A4032;
+                }
             }
             &_btn {
                 margin: 30px 0 0 0;

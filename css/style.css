@@ -227,6 +227,10 @@ h1, h2, h3, h4, h5, h6 {
 .product__description a:hover {
   background-color: #1A4032;
 }
+.product__description a:focus-visible {
+  outline: 4px dashed #1A4032;
+  background-color: #1A4032;
+}
 .product__description_btn {
   margin: 30px 0 0 0;
 }
