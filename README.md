@@ -56,7 +56,7 @@ Its my first time working with design macket in Figma app.
 ```html
 <picture class="product__image">
 	<source srcset="./img/image-product-mobile.jpg" media="(max-width: 620px)">
-	<img  src="./img/image-product-desktop.jpg" alt="bottle of perfume" width="300" height="450" loading="lazy">
+	<img  src="./img/image-product-desktop.jpg" alt="bottle of perfume" width="300" height="450">
 </picture>
 ```
 
