@@ -29,6 +29,7 @@ $ff1:'Fraunces', serif; $ff2:'Montserrat', sans-serif;
             border-radius: 10px;
             background-color: $product-bg;
             margin: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             @media (max-width: 620px) {
                 grid-template: 1fr 1fr / 1fr;
                 max-width: 34.3rem;
@@ -62,7 +63,7 @@ $ff1:'Fraunces', serif; $ff2:'Montserrat', sans-serif;
             @media (max-width: 620px) {
                 margin: 20px 26px 28px;
             }
-            h2 {
+            h1 {
                 font-family: $ff2;
                 font-weight: 500;
                 font-size: 12px;
@@ -71,7 +72,7 @@ $ff1:'Fraunces', serif; $ff2:'Montserrat', sans-serif;
                 color: $text-color;
                 text-transform: uppercase;
             }
-            h1 {
+            h2 {
                 font-family: $ff1;
                 font-weight: 700;
                 font-size: 32px;

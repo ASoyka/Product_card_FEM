@@ -118,6 +118,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 10px;
   background-color: #fff;
   margin: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 @media (max-width: 620px) {
   .product__item {
@@ -163,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 20px 26px 28px;
   }
 }
-.product__description h2 {
+.product__description h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 12px;
@@ -172,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #6C7289;
   text-transform: uppercase;
 }
-.product__description h1 {
+.product__description h2 {
   font-family: "Fraunces", serif;
   font-weight: 700;
   font-size: 32px;
